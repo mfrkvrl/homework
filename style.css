@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    }
+    a{
+        color: white;
+    }
+    .banner{
+        background-image: url(images/city.jpg);
+        height: 100vh;
+        background-size: cover;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center; */
+    }
+    header{
+        display: flex;
+        padding: 2rem 0;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content:space-evenly;
+        text-shadow: 2px 2px 20px;
+    }
+    .logo{
+        color: white;
+    }
+    .nav-list{
+        display: flex;
+    }
+    .nav-link{
+        padding: .5rem;
+    }
+    .motto{
+        text-align: center;
+        color: white;
+        margin: 20rem auto;
+        font-size: 1.5rem;
+        text-shadow: 2px 2px 20px;
+    }
+    /* second section  */
+    /* info*/
+    .second{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 2.5rem;
+        font-size: 1.4rem;
+        font-weight: 550;
+    }
+    .second h1{
+        margin-bottom: 2rem;
+    }
+    
+    .info{
+        padding: 3rem 10rem;
+    }
+    
+
+    .info span{
+        color: #034178;
+        text-shadow: .5px .5px 1px #034178;
+    }
+    /* end of info  */
+    /* solutions */
+    .solutions{
+        padding: 3rem 5rem;
+        background-color: #f3f3f3;
+    }
+    .border-s{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .solutions-heading{
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+    .solutions-wrapper{
+        display: flex;
+        justify-content: space-around;
+        padding: .5rem;
+    }
+    .solution{
+        /* width: 100%;  */
+        height: 80vh;
+        overflow: hidden;
+        margin: 2rem;
+        border-radius: 2rem;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       cursor: pointer;
+    }
+    .solution:hover .text{
+        opacity: .8;
+    }
+   .traffic{
+       background-image: url(images/traffic.jpg);
+       background-size: cover;
+   }
+   .energy{
+       background-image: url(images/energy2.jpeg);
+       background-size: cover;
+   }
+   .waste{
+       background-image: url(images/trash.jpg);
+       background-size: cover;
+   }
+   .solution h2{
+       color: white;
+       font-size: 3rem;
+       text-shadow: 2px 2px 20px;
+   }
+   .text{
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 1rem;
+    text-align: center;
+    opacity: .4;
+    transition: .5s;
+    font-size: 2rem;
+    
+   }
+    /* end of solutions  */
+    /* end of second section  */
+   /* 3th section */
+   .corporational{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 5rem;
+    line-height: 2.5rem;
+    font-size: 1.4rem;
+    font-weight: 550;
+   }
+   .corporational-heading{
+       margin: 2rem 0;
+       font-size: 3rem;
+       text-align: center;
+   }
+   .border-c{
+       border: .5rem solid #034178;
+   }
+   .corporational-wrapper{
+       display: flex;
+       }
+   .cp{
+    text-align: center;
+    margin: 1rem 1rem;
+   }
+   .cp h2{
+       margin-bottom: 1rem;
+   }
+
+   /* 3th section */
+   /* career section  */
+   .career{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  line-height: 2.5rem;
+  font-size: 1.4rem;
+  font-weight: 550;
+  background-size:cover;
+  height: 60vh;
+  background-color: #eee;
+  overflow: hidden;
+  
+   }
+   .career-heading{
+     font-size: 3rem;
+     margin-bottom: 1rem;
+   }
+   .positions{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+   }
+   .positions h1{
+    margin-bottom: 1rem;
+   }
+   .position{
+       height: 40vh;
+       margin: 1rem;
+       padding: 1rem;
+       box-shadow: 10px 10px 20px ;
+       border-radius:5%;
+   }
+   .image{
+    height: 20vh;
+   }
+   .developer-image{
+       background-image: url(images/wd.jpg);
+       background-size: cover;
+       
+   }
+   .marketing-image{
+       background-image: url(images/marketing.jpg);
+       background-size: cover;
+   }
+   .career button{
+       width: 100%;
+       font-size: 1.5rem;
+       font-weight: 550;
+       border-radius: .6rem;
+       transition: .5s;
+       cursor: pointer;
+   }
+   .career button:hover{
+    box-shadow: .2rem .2rem 2rem #000, 
+    -.2rem -.2rem 2rem #000 ;
+    font-weight: 700;
+   }
+   /* offices  */
+   .offices{
+    width: auto;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.office-heading{
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+.o-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.o-wrapper-in{
+    display: flex;
+    justify-content: center;
+}
+/* end of offices  */
+   /* end of career section  */
+   /* connection */
+   .connection{
+       display:flex;
+       justify-content: space-evenly;
+       line-height: 2.5rem;
+  font-size: 1.4rem;
+  font-weight: 550;
+  background-color: rgba(238, 238, 238, 0.85);
+   }
+   .connection-wrapper{
+       padding: 2rem;
+       align-items: center;
+    
+   }
+ 
+   
+   /* end of connection */
+   /* footer  */
+   footer{
+        font-size:2rem;
+        font-weight: 600;
+       width: 100%;
+       height: 10vh;
+       display:flex;
+       align-items: center;
+       justify-content: center;
+       background-color: #034178;
+   }
+   .footer-wrapper{
+       display:flex;
+       justify-content:center;
+   }
+  .social{
+      justify-self:flex-end;
+      margin-left:2rem;
+  }
+  .social a{
+      display: inline;
+      width: 100%;
+      height: 100%;
+      color:black;
+  }
+   /* end of footer  */

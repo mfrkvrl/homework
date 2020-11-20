@@ -1,0 +1,50 @@
+header{
+    flex-direction: column;
+    align-items: center;
+}
+.solutions-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    align-items: center;
+}
+.solution{
+    height: 60vh;
+    width: 100%;
+    overflow: hidden;
+}
+.info{
+    padding: 1rem 5rem;
+}
+.corporational-wrapper{
+    flex-direction: column;
+}
+.corporational{
+    padding: 1rem 2rem;
+}
+.career{
+    height: 120vh;
+}
+.positions{
+    flex-direction: column;
+    
+}
+.positions h1{
+    margin-bottom: 1rem;
+}
+.position{
+    height: 50vh;
+    overflow: hidden;
+}
+.o-wrapper-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.connection{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

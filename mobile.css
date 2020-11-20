@@ -1,0 +1,11 @@
+
+.nav-list{
+    flex-direction: column;
+}
+.nav-link{
+    display: block;
+    text-align: center;
+}
+.motto{
+    margin: 7rem auto;
+}
